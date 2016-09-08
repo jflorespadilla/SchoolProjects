@@ -1,0 +1,67 @@
+material SOLID/TEX/color
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture nm_dn.png
+			}
+		}
+	}
+}
+material SOLID/TEX/color3
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture nm_up.png
+			}
+		}
+	}
+}
+material SOLID/TEX/color4
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture nm_rt.png
+			}
+		}
+	}
+}
+
+material SOLID/TEX/colorG
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture bg_green.png
+			}
+		}
+	}
+}
+
+material SOLID/TEX/stumpy
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture RustySteel.jpg
+			}
+		}
+	}
+}

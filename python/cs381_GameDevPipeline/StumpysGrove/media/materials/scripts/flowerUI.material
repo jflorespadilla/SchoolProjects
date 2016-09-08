@@ -1,0 +1,13 @@
+material FLOWER_HUD
+{
+	technique
+	{
+		pass
+		{
+               texture_unit
+			{
+				texture flowerHudL.png
+			}
+		}
+	}
+}

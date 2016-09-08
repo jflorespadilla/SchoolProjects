@@ -1,0 +1,95 @@
+material _Lavender_
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.901960784313726 0.901960784313726 0.980392156862745 1.0
+         ambient 0.901960784313726 0.901960784313726 0.980392156862745 1.0
+      }
+   }
+}
+
+material _0137_Black_
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.0 0.0 0.0 1.0
+         ambient 0.0 0.0 0.0 1.0
+      }
+   }
+}
+
+material _Fuchsia_
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1.0 0.0 1.0 1.0
+         ambient 1.0 0.0 1.0 1.0
+      }
+   }
+}
+
+material _0128_White_
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1.0 1.0 1.0 1.0
+         ambient 1.0 1.0 1.0 1.0
+      }
+   }
+}
+
+material _Green_
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.0 0.501960784313725 0.0 1.0
+         ambient 0.0 0.501960784313725 0.0 1.0
+      }
+   }
+}
+
+material _0102_RoyalBlue_
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.882352941176471 0.0 0.843137254901961 1.0
+         ambient 0.882352941176471 0.0 0.843137254901961 1.0
+      }
+   }
+}
+
+material SketchupDefault
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1.0 1.0 1.0
+         ambient 1.0 1.0 1.0
+      }
+   }
+}
+
+material SketchupDefault_Back
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.670588235294118 0.690196078431373 0.8
+         ambient 0.670588235294118 0.690196078431373 0.8
+      }
+   }
+}

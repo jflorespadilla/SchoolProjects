@@ -1,0 +1,17 @@
+int tempCol;
+rowC = 0; colC = 0;
+fin >> row;
+fin >> col;
+for( row ; row > 0, row --)
+ {
+  colC = 0;
+  fin >> intArr[rowC][colC]
+  colC = 1;
+  for( tempCol = col; tempcol > 0; tempCol--)
+   {
+    fin >> dummy;
+    fin >> intArr[rowC][colC];
+    colC++;
+   }
+  row++;
+ }

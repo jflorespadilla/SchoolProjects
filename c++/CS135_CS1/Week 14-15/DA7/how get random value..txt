@@ -1,0 +1,11 @@
+/////How to start randomly/////
+ if (rand(time_t)%2 == o)
+ {
+  startRow = row1;
+  startCol= col1;
+  endRow= row2;
+ }
+ else
+ {
+  // reversed
+ }

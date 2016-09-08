@@ -1,0 +1,119 @@
+material _0128_White_
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1.0 1.0 1.0 1.0
+         ambient 1.0 1.0 1.0 1.0
+      }
+   }
+}
+
+material Material27
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.0 1.0 0.501960784313725 1.0
+         ambient 0.0 1.0 0.501960784313725 1.0
+      }
+   }
+}
+
+material _0102_RoyalBlue_
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.0196078431372549 0.882352941176471 0.0980392156862745 1.0
+         ambient 0.0196078431372549 0.882352941176471 0.0980392156862745 1.0
+      }
+   }
+}
+
+material Color_C21
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.2 0.0980392156862745 0.0 1.0
+         ambient 0.2 0.0980392156862745 0.0 1.0
+      }
+   }
+}
+
+material Color_C08
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.8 0.556862745098039 0.317647058823529 1.0
+         ambient 0.8 0.556862745098039 0.317647058823529 1.0
+      }
+   }
+}
+
+material _0137_Black_
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.0 0.0 0.0 1.0
+         ambient 0.0 0.0 0.0 1.0
+      }
+   }
+}
+
+material Color_C16
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.4 0.2 0.0 1.0
+         ambient 0.4 0.2 0.0 1.0
+      }
+   }
+}
+
+material Material26
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.0 1.0 0.0 1.0
+         ambient 0.0 1.0 0.0 1.0
+      }
+   }
+}
+
+material SketchupDefault
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1.0 1.0 1.0
+         ambient 1.0 1.0 1.0
+      }
+   }
+}
+
+material SketchupDefault_Back
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.670588235294118 0.690196078431373 0.8
+         ambient 0.670588235294118 0.690196078431373 0.8
+      }
+   }
+}

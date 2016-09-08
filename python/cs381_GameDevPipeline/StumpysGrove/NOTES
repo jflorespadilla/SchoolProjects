@@ -1,0 +1,56 @@
+Particles 2D textures that have pictures on them
+	basically it works like pictures coming out of the back of the boat making it look like its leaving a wake
+
+you can set their size and material/texture 
+	attach a scene node
+
+	set up a billboard
+		make sure they are facing the right way
+		tell ogre how you want your billboards to look
+		get a reference to the particle system renderer
+			self.renderer = self.ent.pSystem.getRenderer()
+			self.renderer.setBillboardType(ogre.BBT_PERPENDICULAR_COMMON)
+			self.renderer.setCommonDirection(ogre.Vector3(0,1,0)
+			self.renderer.setCommonUpVector(ogre.Vector3(1,0,0)
+
+	assign the material to the billboard
+		set partical name for each one
+			self.ent.pSystem.setMaterialName("Water/Wake")
+			x,y = dimensions
+			self.ent.pSystem.setDefaultDimensions(x,y)
+			self.ent.pSystem.setParticleQuota(8000)
+
+	set up affector(s)
+		move out from the emitters can change color or speed and disapear after a certain time
+			self.scaler = self.ent.pSystem.addAffector("Scaler")
+			self.colourFader = self.ent.pSystem.addAffector("ColourFader")
+		set up affector parameters
+			self.scaler.setParameter("rate", str(scalerRate))
+			self.colourFader.setParameter("alpha", str(colourFaderAlpha))
+
+	set up emitter(s)
+		throws out the particles
+			self. emitter = self.ent.pSystem.addEmitter("Point")
+			self.emitter.setAngle(angle)
+			self.emittersetTimeToLive(ttl)
+			low,high = particleVelocity
+			self.emitter.setParticleVelocity(low,high)
+			self.emitter.setDirection(direction)
+			self.emitter.setEmissionRate(emissionRate)
+
+		colour ranges you can specify red, gree, blue, alpha
+		def setColourRange(self,startColourAlpha = (1,1,1,.5), endClourAlpha = (
+			setColourRangeStart(startColourAlpha
+			setColourRangeEnt(endColourAlpha)
+
+
+tick that gets called everytime the entity gets called 
+	if its under a certain speed don't emit particles till after its over a certain speed
+
+class wake(Aspect):
+	def init(self):
+
+	def initWake(self, dimensions, scalerRate, colorFaderAlpha):
+		calls particles system from scene manager
+
+	

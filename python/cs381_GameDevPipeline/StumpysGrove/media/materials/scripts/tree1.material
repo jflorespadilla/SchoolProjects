@@ -1,0 +1,36 @@
+material Color_F17
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.23921568627451 0.4 0.0784313725490196 1.0
+         ambient 0.23921568627451 0.4 0.0784313725490196 1.0
+      }
+   }
+}
+
+material Color_C17
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.4 0.23921568627451 0.0784313725490196 1.0
+         ambient 0.4 0.23921568627451 0.0784313725490196 1.0
+      }
+   }
+}
+
+material Color_G11
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.0 0.6 0.0 1.0
+         ambient 0.0 0.6 0.0 1.0
+      }
+   }
+}
+

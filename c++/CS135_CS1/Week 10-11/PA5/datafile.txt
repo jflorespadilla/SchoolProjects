@@ -1,0 +1,11 @@
+TEXT FILE STATISTICS
+--------------------
+
+
+Number of words: 1160
+Longest word: Velociraptor's
+Shortest word: I
+Average word length: 4.3931
+
+
+====================

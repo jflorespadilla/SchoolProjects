@@ -1,0 +1,134 @@
+material _DodgerBlue_
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.117647058823529 0.564705882352941 1.0 1.0
+         ambient 0.117647058823529 0.564705882352941 1.0 1.0
+      }
+   }
+}
+
+material _LimeGreen_
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.129411764705882 0.549019607843137 0.129411764705882 1.0
+         ambient 0.129411764705882 0.549019607843137 0.129411764705882 1.0
+      }
+   }
+}
+
+material _YellowGreen_
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.450980392156863 0.756862745098039 0.329411764705882 1.0
+         ambient 0.450980392156863 0.756862745098039 0.329411764705882 1.0
+      }
+   }
+}
+
+material _Low_E_Glass_
+{
+   technique
+   {
+      pass
+      {
+         scene_blend alpha_blend
+         depth_check on
+         depth_write off
+         diffuse 0.537254901960784 0.0627450980392157 0.819607843137255 0.5
+         ambient 0.537254901960784 0.0627450980392157 0.819607843137255 0.5
+      }
+   }
+}
+
+material _Gold_
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.858823529411765 0.745098039215686 0.0980392156862745 1.0
+         ambient 0.858823529411765 0.745098039215686 0.0980392156862745 1.0
+      }
+   }
+}
+
+material _Iris_
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.505882352941176 0.262745098039216 0.564705882352941 1.0
+         ambient 0.505882352941176 0.262745098039216 0.564705882352941 1.0
+      }
+   }
+}
+
+material bottom
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.145098039215686 0.407843137254902 0.196078431372549 1.0
+         ambient 0.145098039215686 0.407843137254902 0.196078431372549 1.0
+      }
+   }
+}
+
+material _Black_
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.0 0.0 0.0 1.0
+         ambient 0.0 0.0 0.0 1.0
+      }
+   }
+}
+
+material _White_
+{
+   technique
+   {
+      pass
+      {
+         diffuse 1.0 1.0 1.0 1.0
+         ambient 1.0 1.0 1.0 1.0
+      }
+   }
+}
+
+material SketchupDefault
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.882352941176471 0.882352941176471 0.784313725490196
+         ambient 0.882352941176471 0.882352941176471 0.784313725490196
+      }
+   }
+}
+
+material SketchupDefault_Back
+{
+   technique
+   {
+      pass
+      {
+         diffuse 0.501960784313725 0.501960784313725 0.784313725490196
+         ambient 0.501960784313725 0.501960784313725 0.784313725490196
+      }
+   }
+}
